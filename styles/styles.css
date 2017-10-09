@@ -18,6 +18,11 @@ img.center {
 	padding-bottom: 40px;
 }
 
+.box {
+	padding-bottom: 0%;
+	padding-top: 0%;
+}
+
 a {
 	color: rgb(50, 115, 220);
 }
