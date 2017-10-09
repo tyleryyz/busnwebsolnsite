@@ -1,0 +1,23 @@
+img.center {
+	padding-bottom: 5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar-item.is-tab.is-active {
+	border-bottom-color: rgb(50, 115, 220);
+	color: rgb(50, 115, 220);
+}
+
+.navbar-item.is-tab:hover {
+  border-bottom-color: rgb(50, 115, 220);
+}
+
+.teaminfo {
+	padding-bottom: 40px;
+}
+
+a {
+	color: rgb(50, 115, 220);
+}
