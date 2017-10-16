@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Technologies</title>
-    <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
-  		<div class="navbar-brand">
-  			<a class="navbar-item" href="./index.html">
-  				<img src="./assets/logoSmall.svg"
-  				onerror="this.src='./assets/LogoFull.png'"
-  				alt="Business Web Solutions logo - cloud">
-  			</a>
-  			<div class="navbar-burger burger" id="burger" data-target="navbartabs">
-  				<span></span>
-  				<span></span>
-  				<span></span>
-  			</div>
-  		</div>
-  		<div class="navbvar-start">
-  			<div class="navbar-menu is-hidden-desktop" id="navbartabs">
-  				<a class="navbar-item is-tab" href="./index.html">Home</a>
-  				<a class="navbar-item is-tab" href="./about.html">About Us</a>
-  				<a class="navbar-item is-tab" href="./index.html">Updates</a>
-          <a class="navbar-item is-tab is-active" href="./technologies.html">Technologies</a>
-  				<a class="navbar-item is-tab" href="https://www.tailoredtutoringco.com/">Our Sponsor</a>
-  			</div>
-  			<div class="navbar-tabs is-hidden-touch">
-  				<a class="navbar-item is-tab" href="./index.html">Home</a>
-  				<a class="navbar-item is-tab" href="./about.html">About Us</a>
-  				<a class="navbar-item is-tab" href="./index.html">Updates</a>
-                    <a class="navbar-item is-tab is-active" href="./technologies.html">Technologies</a>
-  			</div>
-  		</div>
-  		<div class="navbar-end is-hidden-touch">
-  			<a class="navbar-item is-tab" href="https://www.tailoredtutoringco.com/">Our Sponsor</a>
-  		</div>
-  		</div>
-  	</nav>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
-  </head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./styles/bulma.css">
+	<link rel="stylesheet" href="./styles/styles.css">
+	<title class="is-centered">Business Web Solutions</title>
+	<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="./index.html">
+				<img src="./assets/logoSmall.svg"
+				onerror="this.src='./assets/LogoFull.png'"
+				alt="Business Web Solutions logo - cloud">
+			</a>
+			<div class="navbar-burger burger" id="burger" data-target="navbartabs">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="navbvar-start">
+			<div class="navbar-menu is-hidden-desktop" id="navbartabs">
+				<a class="navbar-item is-tab" href="./index.html">Home</a>
+				<a class="navbar-item is-tab" href="./about.html">About Us</a>
+				<a class="navbar-item is-tab is-active" href="./technologies.html">Technologies</a>
+				<a class="navbar-item is-tab" href="./updates.html">Updates</a>
+				<a class="navbar-item is-tab" href="./archive.html">Archive</a>
+
+				<a class="navbar-item is-tab" href="https://www.tailoredtutoringco.com/">Our Sponsor</a>
+			</div>
+			<div class="navbar-tabs is-hidden-touch">
+				<a class="navbar-item is-tab" href="./index.html">Home</a>
+				<a class="navbar-item is-tab" href="./about.html">About Us</a>
+				<a class="navbar-item is-tab is-active" href="./technologies.html">Technologies</a>
+				<a class="navbar-item is-tab" href="./updates.html">Updates</a>
+				<a class="navbar-item is-tab" href="./archive.html">Archive</a>
+
+			</div>
+		</div>
+		<div class="navbar-end is-hidden-touch">
+			<a class="navbar-item is-tab" href="https://www.tailoredtutoringco.com/">Our Sponsor</a>
+		</div>
+		</div>
+	</nav>
+</head>
   <body>
     <section class="section">
       <div class="container">
@@ -63,10 +67,17 @@
                   </div>
                 </div>
                 <div class="content">
-                  ReactJS is a Javascript library for designing user interfaces.
+                  ReactJS is a Javascript library for designing user interfaces with simplicity in mind.
                   <br>
                 </div>
               </div>
+							<footer class="card-footer">
+    						<p class="card-footer-item">
+      					<span>
+        				<a href="https://reactjs.org/">reactjs.org</a>
+      					</span>
+    						</p>
+							</footer>
             </div>
           </div>
 
@@ -85,10 +96,17 @@
                   </div>
                 </div>
                 <div class="content">
-                  Bulma is a CSS framework that is lightweight, scalable, and easy-to-use.
+                  Bulma is a mobile-first CSS framework that is lightweight and easy-to-use.
                   <br>
                 </div>
               </div>
+							<footer class="card-footer">
+    						<p class="card-footer-item">
+      					<span>
+        				<a href="http://bulma.io/">bulma.io</a>
+      					</span>
+    						</p>
+							</footer>
             </div>
           </div>
 
@@ -111,6 +129,13 @@
                   <br>
                 </div>
               </div>
+							<footer class="card-footer">
+    						<p class="card-footer-item">
+      					<span>
+        				<a href="https://www.mongodb.com/">mongodb.com</a>
+      					</span>
+    						</p>
+							</footer>
             </div>
           </div>
 
@@ -119,3 +144,18 @@
     </section>
   </body>
 </html>
+
+<script type="text/javascript">
+document.getElementById('burger').addEventListener("click", function(event) {
+    (function(event) {
+			if (this.className === "navbar-burger burger is-active"){
+				this.className="navbar-burger burger";
+				document.getElementById('navbartabs').className="navbar-menu is-hidden-desktop";
+			}else{
+      	this.className="navbar-burger burger is-active";
+				document.getElementById('navbartabs').className="navbar-menu is-hidden-desktop is-active";
+			}
+    }).call(document.getElementById('burger'), event);
+});
+
+</script>
