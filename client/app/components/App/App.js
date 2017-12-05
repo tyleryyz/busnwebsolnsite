@@ -1,0 +1,35 @@
+import React, { Component } from 'react';
+
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import NavBar from '../Login/NavBar';
+
+/*
+var express = require('express');
+var cors = require('cors');
+var app = express();
+ 
+app.use(cors());
+ 
+app.get('/products/:id', function (req, res, next) {
+  res.json({msg: 'This is CORS-enabled for all origins!'})
+});
+ 
+app.listen(80, function () {
+  console.log('CORS-enabled web server listening on port 80')
+});
+*/
+
+const App = ({ children }) => (
+  <div>
+    <NavBar />
+
+    <main>
+      {children}
+    </main>
+
+    <Footer />
+  </div>
+);
+
+export default App;
