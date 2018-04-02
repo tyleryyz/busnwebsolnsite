@@ -25,8 +25,9 @@
 				<a class="navbar-item is-tab is-active" href="./index.html">Home</a>
 				<a class="navbar-item is-tab" href="./about.html">About Us</a>
 				<a class="navbar-item is-tab" href="./technologies.html">Technologies</a>
-				<a class="navbar-item is-tab" href="./updates.html">Updates</a>
-				<a class="navbar-item is-tab" href="./archive.html">Archive</a>
+				<a class="navbar-item" href="./deliverables.html">Deliverables</a>
+                <a class="navbar-item" href="./presentations.html">Presentations</a>
+                <a class="navbar-item" href="./minutes.html">Minutes</a>
 
 				<a class="navbar-item is-tab" href="https://www.tailoredtutoringco.com/">Our Sponsor</a>
 			</div>
@@ -34,9 +35,9 @@
 				<a class="navbar-item is-tab is-active" href="./index.html">Home</a>
 				<a class="navbar-item is-tab" href="./about.html">About Us</a>
 				<a class="navbar-item is-tab" href="./technologies.html">Technologies</a>
-				<a class="navbar-item is-tab" href="./updates.html">Updates</a>
-				<a class="navbar-item is-tab" href="./archive.html">Archive</a>
-
+				<a class="navbar-item" href="./deliverables.html">Deliverables</a>
+                <a class="navbar-item" href="./presentations.html">Presentations</a>
+                <a class="navbar-item" href="./minutes.html">Minutes</a>
 			</div>
 		</div>
 		<div class="navbar-end is-hidden-touch">
@@ -49,64 +50,328 @@
 <body>
 	<section class="section">
 		<img src="./assets/logoFull.svg" onerror="this.src='./assets/LogoFull.png'" alt="Business Web Solutions" width="500" height="500" class="center">
+        <hr>
 		<div class="container">
-			<div class="content">
-				<h1><strong>
-					Project Description:
-				</strong></h1>
-			<p>We are Business-Web Solutions, and our sponsor is Robert Lokken,
-				owner of <a href="https://www.tailoredtutoringco.com/">Tailored
-					Tutoring Co.</a>, an online professional tutoring company based
-					here in Flagstaff, AZ.
 
-            What sets Robert and Tailored Tutoring Co. apart from
-						other web-based tutoring sites, is the ability for students to take
-						a picture of a problem, upload it to a tutor, and receive a
-						personalized video solution from that tutor.  While this feature
-						provides a lot of value to students, it is currently a manual process
-						for our sponsor to complete himself. This process is just too
-						cumbersome to be sustainable long-term without automation.
+            <div class="columns">
 
-            <h2><strong>The problem:</strong></h2>  Currently, the
-						<a href =https://www.tailoredtutoringco.com/>website</a>
-						is poorly optimized for mobile. Students often find themselves
-						having to take a picture of a problem on a phone, email it to
-						themselves, and then upload it to the Tailored Tutoring website
-						via a computer. Clearly a time consuming process for the student.
-						On Tailored Tutoring’s end, the problem is even worse.
-						Robert gets a notification that a student problem
-						has been submitted, then manually has to go through the submission to
-						see what it is about, and search for a qualified tutor in the subject
-						area that is currently available.  He notifies the tutor who
-						then creates a video, uploads it to a Google Drive, and then Robert has
-						to create a personal link to the solution video, and email that to
-						the student, notifying them that their problem has been solved and
-						is viewable. This is obviously a less than ideal process, and could
-						do with some automation and fine-tuning.
+                <div class="column is-three-fifths">
+                    <div class="content">
+        				<h1><strong>
+        					Project Description:
+        				</strong></h1>
+        			<p>We are Business-Web Solutions, and our sponsor is Robert Lokken,
+        				owner of <a href="https://www.tailoredtutoringco.com/">Tailored
+        					Tutoring Co.</a>, an online professional tutoring company based
+        					here in Flagstaff, AZ.
 
-            <h3><strong>Our solution:</strong></h3> As the business scales, this whole
-						process is becoming too much work for our sponsor, and needs to be automated.
-						That is where we come in.  Our goals here are to completely
-						automate the submission process and improve the site by:
-                <ul>
-                    <li>Building with mobile in mind by using ReactJS
-											and Bulma which utilize a mobile-first design philosophy.</li>
-                    <li>Automating the problem-submission process by building
-											a new web portal.  Users and tutors will have profiles,
-											with problems submitted under subjects and automatically
-											sent out to corresponding, available tutors in those subject areas.</li>
-                    <li>Incorporating a database to store these personalized tutor-videos for
-											students using MongoDB. From there, students will be able
-											to access their videos for a specified time; while Robert
-											will be able to download to a hard drive and have a
-											physical backup of all videos made.</li>
-                </ul>
-            In conclusion, we are here to help automate Robert and Tailored
-						Tutoring Co.’s business, specifically focusing on their unique
-						feature: the problem-submission process.  We will emphasize automation,
-						mobile-friendly design, and a web portal with user profiles to help
-						Tailored Tutoring Co. scale their business into the future. </p>
-					</div>
+                    What sets Robert and Tailored Tutoring Co. apart from
+        						other web-based tutoring sites, is the ability for students to take
+        						a picture of a problem, upload it to a tutor, and receive a
+        						personalized video solution from that tutor.  While this feature
+        						provides a lot of value to students, it is currently a manual process
+        						for our sponsor to complete himself. This process is just too
+        						cumbersome to be sustainable long-term without automation.
+
+                    <h2><strong>The problem:</strong></h2>  Currently, the
+        						<a href =https://www.tailoredtutoringco.com/>website</a>
+        						is poorly optimized for mobile. Students often find themselves
+        						having to take a picture of a problem on a phone, email it to
+        						themselves, and then upload it to the Tailored Tutoring website
+        						via a computer. Clearly a time consuming process for the student.
+        						On Tailored Tutoring’s end, the problem is even worse.
+        						Robert gets a notification that a student problem
+        						has been submitted, then manually has to go through the submission to
+        						see what it is about, and search for a qualified tutor in the subject
+        						area that is currently available.  He notifies the tutor who
+        						then creates a video, uploads it to a Google Drive, and then Robert has
+        						to create a personal link to the solution video, and email that to
+        						the student, notifying them that their problem has been solved and
+        						is viewable. This is obviously a less than ideal process, and could
+        						do with some automation and fine-tuning.
+
+                    <img src="./assets/Workflow.png" onerror="this.src='./assets/Workflow.png'" alt="Tailored Tutoring Workflow">
+
+                    <h3><strong>Our solution:</strong></h3> As the business scales, this whole
+        						process is becoming too much work for our sponsor, and needs to be automated.
+        						That is where we come in.  Our goals here are to completely
+        						automate the submission process and improve the site by:
+
+                        <img src="./assets/TechStack.png" onerror="this.src='./assets/TechStack.png'" width="450" height="450" class="center" alt="Tailored Tutoring Application"> 
+                        <ul>
+                            <li>Building with mobile in mind by using ReactJS
+        											and Bulma which utilize a mobile-first design philosophy.</li>
+                            <li>Automating the problem-submission process by building
+        											a new web portal.  Users and tutors will have profiles,
+        											with problems submitted under subjects and automatically
+        											sent out to corresponding, available tutors in those subject areas.</li>
+                            <li>Incorporating a database to store these personalized tutor-videos for
+        											students using MongoDB. From there, students will be able
+        											to access their videos for a specified time; while Robert
+        											will be able to download to a hard drive and have a
+        											physical backup of all videos made.</li>
+                        </ul>
+                    In conclusion, we are here to help automate Robert and Tailored
+        						Tutoring Co.’s business, specifically focusing on their unique
+        						feature: the problem-submission process.  We will emphasize automation,
+        						mobile-friendly design, and a web portal with user profiles to help
+        						Tailored Tutoring Co. scale their business into the future. </p>
+        					</div>
+                        </div>
+
+                        <div class="column">
+
+                            <h1 class="title">
+                			Team Updates
+                			</h1>
+
+                            <!-- Design Review 2 Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Design Review 2
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						Our team developed and delivered a professional design review presentation, and received project feedback for our current status in the project.
+                						We discussed technical implementation, application components, and completed project requirements.
+                						<br>
+                						<br>
+                						<a class="button is-info" href="./assets/DesignReview2.pdf">View Design Review 2</a>
+                						<br>
+                						<br>
+                						<time>8 Mar 2018</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                            <!-- Software Design Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Software Design Document
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						We detailed the inner workings of our software application, what technologies we will be using, how they will interact, and what each one will provide to our app.
+                                        This document should provide a mid-level implementation analysis to the reader, and convey why we have chosen each technology to use.
+                						<br>
+                						<br>
+                						<a class="button is-info" href="./assets/SoftwareDesign.pdf">View Software Design</a>
+                						<br>
+                						<br>
+                						<time>16 Feb 2018</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                            <!-- Communication Memo Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Communication Report
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						We wrote a report outlining how our team will be communicating, in all forms, and how what guidelines we will hold our team members to during the Spring semester.
+                						<br>
+                						<br>
+                						<a class="button is-info" href="./assets/CommunicationReport.pdf">View Communication Report</a>
+                						<br>
+                						<br>
+                						<time>28 Jan 2018</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                            <!-- Winter Break Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Winter Vacation
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						Winter break starts today as finals come to a close for Fall 2017 at NAU. Development will begin January 8 in the new year with training tasks.
+                						Happy Holidays!
+                						<br>
+                						<br>
+                						<img width=100px height=100px src="./assets/holidays.png"></img>
+                						<br>
+                						<time>14 Dec 2017</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                			<!-- Tech Demo Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Technical Demonstration
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						We built a React JS application using MongoDB and other technologies to adequately show that our tech stack is feasible.
+                						We implemented User Signup and Authentication, File Uploading, and Email Notification, and demonstrated this app to our mentor.
+                						<br>
+                						<br>
+                						<time>12 Dec 2017</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                			<!-- Requirements Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Requirements Document
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						We finalized our Requirements Document, and had our client verify and sign it. We now have an official contract with our client,
+                						as well as a schedule, and list of functionalities and constraints.
+                						<br>
+                						<br>
+                						<a class="button is-info" href="./assets/RequirementsDoc.pdf">View Requirements Document</a>
+                						<br>
+                						<br>
+                						<time>05 Dec 2017</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                			<!-- Design Review Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Design Review 1
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						Our team developed and delivered a professional design review presentation, and received project feedback for our current status in the project.
+                						We discussed technical feasibility, risks, constraints, timeline, and main requirements.
+                						<br>
+                						<br>
+                						<a class="button is-info" href="./assets/DesignReview.pdf">View Design Review</a>
+                						<br>
+                						<br>
+                						<time>21 Nov 2017</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                			<!-- Schedule Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Project Schedule
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						Our team schedules most of our development time to be in January, and the first half of February.
+                						Our project schedule aims our team to release a first version of our application by the second half of February.
+                						We incorporate debugging, client feedback, and user testing after our first release in February, and throughout March.
+                						<br>
+                						<br>
+                						<img width=800 height=800 border=1 src="./assets/GanttChart.png" alt="Team Schedule - Photo">
+                						<br>
+                						<time>15 Nov 2017</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                			<!-- Feasibility Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Technology Feasibility
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						We finalized our Feasibility Document, and had each team member responsible for a major section in the document.
+                						We now have an official document outlining our technology of choice, our criteria, and desired functions for each technology.
+                						<br>
+                						<br>
+                						<a class="button is-info" href="./assets/TechnologyFeasibility.pdf">View Feasibility Document</a>
+                						<br>
+                						<br>
+                						<time>07 Nov 2017</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                			<!-- Standards Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Team Standards
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						We developed an official Standards for our team members, which outlines our team policies in all areas that relate to our members and their conduct.
+                						<br>
+                						<br>
+                						<a class="button is-info" href="./assets/TeamStandards.pdf">View Standards Document</a>
+                						<br>
+                						<br>
+                						<time>19 Sep 2017</time>
+                					</div>
+                				</div>
+                			</div>
+
+                			<hr>
+
+                			<!-- Inventory Card -->
+                			<div class="card">
+                				<header class="card-header">
+                					<p class="card-header-title">
+                						Team Inventory
+                					</p>
+                				</header>
+                				<div class="card-content">
+                					<div class="content">
+                						We developed an official Inventory of our team, which outlines all of our members' skills, experience, and education.
+                						<br>
+                						<br>
+                						<a class="button is-info" href="./assets/TeamInventory.pdf">View Inventory Document</a>
+                						<br>
+                						<br>
+                						<time>19 Sep 2017</time>
+                					</div>
+                				</div>
+                			</div>
+
+                        </div>
+
+                    </div>
 		</div>
 	</section>
 </body>

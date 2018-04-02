@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./styles/bulma.css">
+		<link rel="stylesheet" href="./styles/styles.css">
+		<title class="is-centered">Business Web Solutions</title>
+		<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="./index.html">
+					<img src="./assets/logoSmall.svg"
+					onerror="this.src='./assets/LogoFull.png'"
+					alt="Business Web Solutions logo - cloud">
+				</a>
+				<div class="navbar-burger burger" id="burger" data-target="navbartabs">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="navbvar-start">
+				<div class="navbar-menu is-hidden-desktop" id="navbartabs">
+					<a class="navbar-item is-tab" href="./index.html">Home</a>
+					<a class="navbar-item is-tab" href="./about.html">About Us</a>
+					<a class="navbar-item is-tab" href="./technologies.html">Technologies</a>
+					<a class="navbar-item is-tab" href="./deliverables.html">Deliverables</a>
+                    <a class="navbar-item is-tab is-active" href="./presentations.html">Presentations</a>
+                    <a class="navbar-item is-tab" href="./minutes.html">Minutes</a>
+
+					<a class="navbar-item is-tab" href="https://www.tailoredtutoringco.com/">Our Sponsor</a>
+				</div>
+				<div class="navbar-tabs is-hidden-touch">
+					<a class="navbar-item is-tab" href="./index.html">Home</a>
+					<a class="navbar-item is-tab" href="./about.html">About Us</a>
+					<a class="navbar-item is-tab" href="./technologies.html">Technologies</a>
+					<a class="navbar-item is-tab" href="./deliverables.html">Deliverables</a>
+                    <a class="navbar-item is-tab is-active" href="./presentations.html">Presentations</a>
+                    <a class="navbar-item is-tab" href="./minutes.html">Minutes</a>
+				</div>
+			</div>
+			<div class="navbar-end is-hidden-touch">
+				<a class="navbar-item is-tab" href="https://www.tailoredtutoringco.com/">Our Sponsor</a>
+			</div>
+			</div>
+		</nav>
+	</head>
+	<body>
+
+		<section class="section">
+			<div class="container">
+				<h1 class="title">
+					Presentation Archive
+				</h1>
+
+				<div class="columns">
+				  <div class="column">
+
+						<!-- Design Review Card -->
+						<div class="card">
+							<header class="card-header">
+								<p class="card-header-title">
+									Design Review I
+								</p>
+							</header>
+							<div class="card-content">
+								<div class="content">
+									<embed src="./assets/DesignReview.pdf" width=100% height=250px>
+									<br>
+									<br>
+									<a class="button is-info" href="./assets/DesignReview.pdf">View Document</a>
+									<br>
+									<time>21 Nov 2017</time>
+								</div>
+							</div>
+						</div>
+
+						<!-- <br>
+
+						<div class="card">
+							<header class="card-header">
+								<p class="card-header-title">
+									Team Standards
+								</p>
+							</header>
+							<div class="card-content">
+								<div class="content">
+									<embed src="./assets/TeamStandards.pdf" width=100% height=250px>
+									<br>
+									<br>
+									<a class="button is-info" href="./assets/TeamStandards.pdf">View Document</a>
+									<br>
+									<time>19 Sep 2017</time>
+								</div>
+							</div>
+						</div> -->
+
+				  </div>
+				  <div class="column">
+
+						<!-- Design Review 2 Card -->
+						<div class="card">
+							<header class="card-header">
+								<p class="card-header-title">
+									Design Review II
+								</p>
+							</header>
+							<div class="card-content">
+								<div class="content">
+									<embed src="./assets/DesignReview2.pdf" width=100% height=250px>
+									<br>
+									<br>
+									<a class="button is-info" href="./assets/DesignReview.pdf">View Document</a>
+									<br>
+									<time>08 Mar 2018</time>
+								</div>
+							</div>
+						</div>
+
+				  </div>
+				  <div class="column">
+
+
+				  </div>
+				</div>
+			</div>
+		</section>
+	</body>
+
+</html>
+
+<script type="text/javascript">
+document.getElementById('burger').addEventListener("click", function(event) {
+    (function(event) {
+			if (this.className === "navbar-burger burger is-active"){
+				this.className="navbar-burger burger";
+				document.getElementById('navbartabs').className="navbar-menu is-hidden-desktop";
+			}else{
+      	this.className="navbar-burger burger is-active";
+				document.getElementById('navbartabs').className="navbar-menu is-hidden-desktop is-active";
+			}
+    }).call(document.getElementById('burger'), event);
+});
+
+</script>
